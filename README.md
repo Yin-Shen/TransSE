@@ -1,7 +1,8 @@
 # TransSE: Transfer Learning-based Super Enhancer Prediction
 
 ## Introduction
-TransSE is a deep learning model for predicting super enhancers from DNA sequences using transfer learning. The model is trained on both human and mouse datasets to learn generalizable features and patterns conserved across species. TransSE demonstrates strong cross-species transferability and outperforms existing methods in identifying super enhancers.Key features of TransSE:
+TransSE is an innovative deep learning framework designed for predicting super enhancers (SEs) and typical enhancers (TEs) from DNA sequences using transfer learning. By leveraging data from both human and mouse genomes, TransSE learns generalizable features and patterns conserved across species, demonstrating robust cross-species transferability and improved performance in enhancer identification.
+Key features of TransSE:
 * Advanced Architecture: Utilizes a convolutional neural network to capture complex sequence patterns
 * Transfer Learning: Leverages knowledge from human and mouse datasets to enhance prediction accuracy
 * Cross-Species Applicability: Achieves high predictive performance on both human and mouse enhancers
