@@ -19,30 +19,30 @@ cd TransSE
 ```
 ### 2. Install the required dependencies:
 ```
-# Deep Learning
+Deep Learning
 tensorflow>=2.4.0
 keras>=2.4.0
 
-# Data Processing and Analysis
+Data Processing and Analysis
 pandas>=1.2.0
 numpy>=1.19.0
 scipy>=1.5.0
 
-# Bioinformatics
+Bioinformatics
 biopython>=1.78
 
-# Data Visualization
+Data Visualization
 matplotlib>=3.3.0
 seaborn>=0.11.0
 plotly>=4.14.0
 
-# Machine Learning Utilities
+Machine Learning Utilities
 scikit-learn>=0.24.0
 
-# Jupyter Notebook (for development and demonstration)
+Jupyter Notebook (for development and demonstration)
 jupyter>=1.0.0
 
-# Other Utilities
+Other Utilities
 tqdm>=4.50.0
 
 ```
