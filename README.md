@@ -27,15 +27,11 @@ Place your mouse training, validation, and test data in the data/mouse/ director
 
 ### 4. Run TransSE:
 ```
-python transse.py --train_data data/human/train.txt data/mouse/train.txt \
-                  --val_data data/human/val.txt data/mouse/val.txt \
-                  --test_data data/human/test.txt data/mouse/test.txt \
-                  --output_dir output/
+python transse.py --human_train data/human_train.txt --human_val data/human_val.txt --human_test data/human_test.txt --mouse_train data/mouse_train.txt --mouse_val data/mouse_val.txt --mouse_test data/mouse_test.txt
 ```
 ### 5. Evaluate the trained model:
 ```
-python evaluate.py --model_path output/transse_model.h5 \
-                   --test_data data/human/test.txt data/mouse/test.txt
+python evaluate.py 
 ```
 
 ### For more details on the TransSE model architecture, training process, and evaluation metrics, please refer to the original publication.
