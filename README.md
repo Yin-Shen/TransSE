@@ -35,8 +35,8 @@ tqdm>=4.50.0
 
 ```
 ### 3. Prepare your input data:
-Place your human training, validation, and test data in the data/human/ directory
-Place your mouse training, validation, and test data in the data/mouse/ directory
+Place your human training, validation, and test data in the data/ directory
+Place your mouse training, validation, and test data in the data/ directory
 
 ### 4. Run TransSE:
 ```
